@@ -20,6 +20,16 @@
     padding: 64px 48px;
     margin-bottom: -110px;
 }
+.hero-text{
+    font-size: 16px;
+    color: rgb(52, 52, 52);
+    font-family: Inter;
+    font-weight: 120;
+    letter-spacing: 2px;
+    padding: 4px 48px;
+    margin-top: -45px;
+    margin-inline-end: 55%;
+}
 #latest-reviews {
     border-bottom: 1px solid #1e1e1e;
 }
@@ -28,4 +38,11 @@
 }
 #about-strip {
     border-bottom: 1px solid #1e1e1e;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    padding: 16px 48px;
+    padding-bottom: 80px;
 }
